@@ -1,0 +1,30 @@
+h1{
+    text-align: left;
+    background-color: black;
+}
+
+#my{
+    font-weight: bold;
+    color: white;
+}
+
+#cloud{
+    font-weight: bold;
+    color: skyblue;
+}
+
+h2{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h3{
+    text-align: right;
+    text-decoration: underline;
+    background-color: lightsteelblue;
+    font-weight: normal;
+    font-style: monospace;
+}

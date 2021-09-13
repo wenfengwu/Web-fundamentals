@@ -1,0 +1,29 @@
+div{
+    margin-bottom:20px;
+}
+
+#search{
+    border-radius: 12px;
+    border: 1px solid mediumaquamarine;
+    padding: 3px 45px;
+    color: mediumaquamarine;
+    font-weight: bold;
+}
+
+#plus{
+    border-radius: 50%;
+    color: white;
+    background-color: mediumaquamarine;
+    border: none;
+    font-weight: normal;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+}
+
+#account{
+    box-shadow: 4px 4px black, -0.1em -0.1em 0 black;
+    color: white;
+    background-color: rgb(16, 88, 196);
+    padding: 5px 40px;
+}
