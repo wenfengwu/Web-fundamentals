@@ -1,0 +1,15 @@
+.selfPhoto{
+    width: 90px;
+    height: 130px;
+}
+
+.underLine{
+    text-decoration: underline;
+    color: skyblue;
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+}

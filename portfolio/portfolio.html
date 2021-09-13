@@ -5,9 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <h1>Wenfeng(Kevin) Wu</h1>
+    <div>
+        <img src="ninjaman/IMG_2243.JPG" alt="my photo" class="selfPhoto">
+    </div>
     
+    <div>
+        <img src="ninjaman/bluey.gif" alt="GithuhPicture">
+        <span class="underLine">my githuh</span>
+        <img src="ninjaman/pinky.gif" alt="LinkedinPicture">
+        <span class="underLine">my linkedin</span>
+        <img src="ninjaman/red.gif" alt="EmailPicture">
+        <span class="underLine">my email</span>
+    </div>
+
+    <h2>Technologies</h2>
+    <table>
+        <tr>
+            <th>Front-End</th>
+            <th>Python</th>
+            <th>JavaScript</th>
+            <th>Database</th>
+            <th>Concepts</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>Flask</td>
+            <td>Express</td>
+            <td>MySQL</td>
+            <td>AJAX</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Django</td>
+            <td>Node.js</td>
+            <td>MongoDB</td>
+            <td>OOP</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>Unittest</td>
+            <td>React</td>
+            <td></td>
+            <td>REST</td>
+        </tr>
+    </table>
+
+    <div>
+        <h2>Projects Experience</h2>
+        <ol>
+            <li>Alpha TV & Electronics Website - <span class="underLine">code</span> | <span class="underLine">deplyed</span></li>
+            <li>Home electrical and appliance repair system - <span class="underLine">code</span> | <span class="underLine">deplyed</span></li>
+            <li>Pet Hotel management system - <span class="underLine">code</span> | <span class="underLine">deplyed</span></li>
+        </ol>
+    </div>
+
+    <form form action="/process">
+        <h2>Contact ME</h2>
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <label for="email">Email: </label>
+        <input type="text" id="email">
+        <div style="margin: 10px;">
+            <label for="comment">Message: </label>
+            <textarea name="message" id="comment" cols="30" rows="5"></textarea>
+        </div>
+
+        <button>Send Message</button>
+    </form>
+
 </body>
 </html>
