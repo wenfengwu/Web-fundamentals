@@ -1,0 +1,317 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 80%;
+  height: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainContent {
+  width: 55%;
+  height: 800px;
+}
+
+.connections {
+  width: 30%;
+  height: 800px;
+  margin-left: 50px;
+}
+
+.profile {
+  margin-left: 50px;
+  color: white;
+  font-size: 28px;
+}
+
+.nav-links {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 4rem;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  background-color: turquoise;
+  color: white;
+  border: 0px;
+  position: fixed;
+  left: 75%;
+}
+
+/* style of userCard */
+
+/* style of userCard */
+
+.userCard {
+  width: 100%;
+  height: 400px;
+}
+
+.cardHead {
+  width: 100%;
+  height: 100px;
+  background-color: turquoise;
+}
+
+.information {
+  height: 296px;
+  border: 4px solid rgb(204, 207, 207);
+  border-top: 0px;
+}
+
+.location {
+  margin: 30px 0px 0px 40px;
+}
+
+.title {
+  margin: 30px 0px 0px 30px;
+}
+
+.editProfile {
+  margin: 30px 0px 0px 30px;
+}
+
+#name {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-left: 30px;
+}
+
+#selfpic {
+  border: 2px solid white;
+  margin: -50px 0px 0px 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#gear {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+#arrow {
+  width: 20px;
+  height: 30px;
+}
+
+#location {
+  font-size: 1.2rem;
+  margin-left: 8px;
+  vertical-align: center;
+}
+
+#editPro {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: turquoise;
+}
+
+/* style of eduction field */ /* style of eduction field */
+.education {
+  margin-top: 50px;
+  width: 100%;
+  height: 330px;
+}
+
+.eHead {
+  width: 100%;
+  height: 45px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.educationOrder {
+  margin: 0px 0px 10px 20px;
+}
+
+.educationContainer {
+  height: 281px;
+  border: 4px solid rgb(204, 207, 207);
+  border-top: 0px;
+  display: flex;
+}
+
+#educationTitle {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#educationTime {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: rgb(204, 207, 207);
+}
+
+#belt {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+#education {
+  margin-left: 30px;
+}
+
+/* style on Connection Requests */
+.requests {
+  width: 100%;
+  height: 30%;
+}
+
+.requestHeader {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+}
+
+.requestPic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#requestNum {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(204, 207, 207);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+
+.requestPeople {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(204, 207, 207);
+  border-top: 0px;
+}
+
+.checkList {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#requestWord {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#requestName {
+  font-size: 1.2rem;
+}
+
+/* style of Connections */ /* style of Connections */ /* style of Connections */
+.YourConnect {
+  margin-top: 50px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.connectionsHeader {
+  background-color: rgb(51, 51, 51);
+  flex: 2;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.connectPeople {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(204, 207, 207);
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.conncetFriends {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.addition {
+  flex: 1;
+}
+
+.addition {
+  display: flex;
+  align-items: center;
+  border: 3px solid rgb(204, 207, 207);
+}
+
+#moreInfo {
+  text-decoration: underline;
+  font-size: 1.1rem;
+  color: turquoise;
+  margin-left: 10px;
+}
+
+.connectPic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+#connectionsNum {
+  width: 70px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgb(204, 207, 207);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px 0px 20px;
+}
+
+#connectName {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+#connectionsWord {
+  font-size: 1.2rem;
+}
