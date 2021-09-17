@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="buttonClicker.css" />
+    <script src="buttonClicker.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header flex">
+      <h1>Dojonary</h1>
+      <div>
+        <input type="text" id="search" placeholder="Search" />
+      </div>
+      <div><button class="login" onclick="logOut(this)">Login</button></div>
+    </div>
+
+    <div class="main flex">
+      <div class="col1">
+        <div class="row1 flex margin">
+          <div class="ninjaBox flex">
+            <div class="ninja flex">
+              <h1 class="margin">ninja</h1>
+              <p class="margin">noun</p>
+              <p class="marin">Plural: <span id="ninjas">ninjas</span></p>
+            </div>
+            <div class="ninjaLikes flex">
+              <button class="likes" onclick="alertMes()">13 likes</button>
+            </div>
+          </div>
+          <div class="ninjaText">
+            <p>
+              A practitioner skilled in the <span>Japanese</span>art of
+              <span>ninjutsu</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row1 flex">
+          <div class="ninjaBox flex margin">
+            <div class="ninja flex">
+              <h1 class="margin">ninja</h1>
+              <p class="margin">noun</p>
+              <p class="marin">Plural: <span id="ninjas">ninjas</span></p>
+            </div>
+            <div class="ninjaLikes flex">
+              <button class="likes">37 likes</button>
+            </div>
+          </div>
+          <div class="ninjaText">
+            <p>
+              A <span>programmer</span> who breaks down problems with
+              <span>zen-</span>like focus
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="defined flex margin">
+          <p id="dojonary">Dojonary is defined by <span id="you">YOU</span></p>
+          <div>
+            <button id="definition" onclick="removeElement(this)">
+              Add Definition
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

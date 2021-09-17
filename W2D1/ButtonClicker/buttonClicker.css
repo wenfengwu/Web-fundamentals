@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.margin {
+  margin: 10px 0px 10px 0px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  padding: 130px;
+  padding-top: 0px;
+}
+
+/* style for header */
+
+.header {
+  background-color: rgb(132, 134, 138);
+  justify-content: space-around;
+  height: 60px;
+}
+
+#search {
+  width: 280px;
+  height: 23px;
+  border: 2px solid black;
+}
+
+.login {
+  background-color: rgb(8, 105, 196);
+  width: 70px;
+  height: 26px;
+  color: white;
+}
+
+/* style for main */
+
+.main {
+  height: 600px;
+}
+
+.col1 {
+  flex: 2;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.col2 {
+  flex: 0.7;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.row1 {
+  height: 45%;
+  border: 3px solid rgb(132, 134, 138);
+}
+
+.ninja {
+  flex: 4;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ninjaText {
+  flex: 1;
+}
+
+.ninjaBox {
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+}
+
+.ninjaLikes {
+  flex: 2;
+}
+
+.likes {
+  width: 100px;
+  height: 40px;
+  background-color: darkorange;
+}
+
+span {
+  text-decoration: underline;
+  color: rgb(8, 105, 196);
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+#ninjas {
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+}
+
+/* style for col2 */
+
+.defined {
+  flex-direction: column;
+  height: 35%;
+  justify-content: space-evenly;
+  border: 3px solid rgb(132, 134, 138);
+}
+
+#you {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+#dojonary {
+  padding: 10px;
+}
+
+#definition {
+  width: 140px;
+  height: 30px;
+  font-size: 1rem;
+  background-color: seagreen;
+}
+
+button {
+  box-shadow: 3px 2px black;
+}
