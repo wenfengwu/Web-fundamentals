@@ -43,7 +43,7 @@
         
                             <div class="editProfile">
                                 <img src="photos/icons/gear.png" alt="gearLogo" id="gear">
-                                <span id="editPro">edit profile</span>
+                                <span id="editPro" onclick="changeName()">edit profile</span>
                             </div>
                         </div>
                 </div>
@@ -69,7 +69,7 @@
             <div class="connections">
                 <div class="requests">
                     <div class="requestHeader">
-                        <div id="requestNum"><span>2</span>
+                        <div id="requestNum"><span id="requestNumber">2</span>
                         </div>
                         <span id="requestWord">Connection Requests</span>
                     </div>
@@ -79,16 +79,16 @@
                             <span id="requestName">Adrien E</span>
                             <p></p>
                             <p></p>
-                            <img src="photos/icons/accept-circle.png" alt="Phill" class="requestPic">
-                            <img src="photos/icons/close-circle.png" alt="reject" class="requestPic">
+                            <img src="photos/icons/accept-circle.png" alt="Phill" class="requestPic" onclick="removeListF(), decreaseRequest(),increaseConnection()">
+                            <img src="photos/icons/close-circle.png" alt="reject" class="requestPic" onclick="removeListF(),decreaseRequest()">
                         </div>
                         <div id="two" class="checkList">
                             <img src="photos/images/anne-s.jpg" alt="anne" class="requestPic">
                             <span id="requestName">Anne K</span>
                             <p></p>
                             <p></p>
-                            <img src="photos/icons/accept-circle.png" alt="Phill" class="requestPic">
-                            <img src="photos/icons/close-circle.png" alt="reject" class="requestPic">
+                            <img src="photos/icons/accept-circle.png" alt="Phill" class="requestPic" onclick="removeListS(), decreaseRequest(), increaseConnection()">
+                            <img src="photos/icons/close-circle.png" alt="reject" class="requestPic" onclick="removeListS(), decreaseRequest()">
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                 <div class="YourConnect">
                     
                     <div class="connectionsHeader">
-                        <div id="connectionsNum"><span>500+</span>
+                        <div id="connectionsNum"><span id="connectionNumber">388</span>
                         </div>
                         <span id="connectionsWord">Your Connections</span>
                     </div>
@@ -134,5 +134,7 @@
         </div>
         </div>
     </div>
+
+    <script src="profilePage.js"></script>
 </body>
 </html>
