@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+body {
+  padding: 200px;
+  padding-top: 0px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background-color: black;
+  height: 80px;
+  color: white;
+}
+
+.header h1 {
+  margin-left: 20px;
+}
+
+.container {
+  height: 800px;
+  align-items: flex-start;
+}
+
+.userCard {
+  flex: 3;
+  height: 55%;
+  margin-right: 15px;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 3px solid rgb(132, 134, 138);
+}
+
+.friendsContainer {
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 3px solid rgb(132, 134, 138);
+  margin-bottom: 6px;
+}
+
+.feedbackList {
+  flex: 7;
+  height: 100%;
+  flex-direction: column;
+}
+
+span {
+  text-decoration: underline;
+  color: steelblue;
+  font-size: 1.3rem;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  background-color: darkorange;
+  text-align: center;
+  box-shadow: 5px 5px black;
+  border: 3px solid black;
+}
+
+.name {
+  width: 50%;
+  font-size: 1.8rem;
+  margin-left: 50px;
+}
+
+.profileName {
+  width: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.friends {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.likes {
+  width: 50%;
+  justify-content: space-around;
+}
+
+.feedbackText {
+  font-size: 1.3rem;
+  margin: 0px 60px 0px 50px;
+}
+
+#feedHeader {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+#profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}

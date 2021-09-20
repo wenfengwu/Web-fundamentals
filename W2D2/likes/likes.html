@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Likes</title>
+    <link rel="stylesheet" href="likes.css" />
+  </head>
+  <body>
+    <div class="header flex">
+      <h1>Network</h1>
+    </div>
+    <h1 id="feedHeader">Your Feed</h1>
+    <div class="container flex">
+      <div class="userCard flex">
+        <img src="IMG_2128.JPG" alt="profilePhote" id="profile" />
+        <span>Add an avatar</span>
+        <div class="profileName">James Doe</div>
+      </div>
+
+      <div class="feedbackList flex">
+        <div class="friendsContainer flex">
+          <div class="friends flex">
+            <div class="name">Neil M</div>
+            <div class="likes flex">
+              <div class="numberOfLikes" id="neil">9 like(s)</div>
+              <button onclick="addLikeNeil()">Like</button>
+            </div>
+          </div>
+          <div class="feedbackText">
+            I just set up this new discord bot, let me know what you all think.
+            <span>link</span>
+          </div>
+        </div>
+
+        <div class="friendsContainer flex">
+          <div class="friends flex">
+            <div class="name">Nichole K</div>
+            <div class="likes flex">
+              <div class="numberOfLikes" id="nichole">12 like(s)</div>
+              <button onclick="addLikeNichole()">Like</button>
+            </div>
+          </div>
+          <div class="feedbackText">
+            Just finished my <span>next comic</span>, check it out.
+          </div>
+        </div>
+
+        <div class="friendsContainer flex">
+          <div class="friends flex">
+            <div class="name">Jim R</div>
+            <div class="likes flex">
+              <div class="numberOfLikes" id="jim">9 like(s)</div>
+              <button onclick="addLikeJim()">Like</button>
+            </div>
+          </div>
+          <div class="feedbackText">
+            I can't stop listening to the <span>new album</span>. Who else is
+            liking it?
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="likes.js"></script>
+  </body>
+</html>
