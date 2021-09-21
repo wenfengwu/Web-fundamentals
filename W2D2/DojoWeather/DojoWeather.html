@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecase</title>
+    <link rel="stylesheet" href="DojoWeather.css" />
+  </head>
+  <body>
+    <div class="header flex">
+      <h1 id="titleHead">DojoWeather</h1>
+      <div class="cityContainer flex">
+        <div class="city" onclick="displayAlert()">Burbank</div>
+        <div class="city" onclick="displayAlert()">Chicago</div>
+        <div class="city" onclick="displayAlert()">Dallas</div>
+      </div>
+    </div>
+
+    <div class="bodyContainer">
+      <div class="current flex">
+        <div class="currentCity">San Jose</div>
+        <div class="temperatureControl">
+          show temperature in
+          <select
+            name="tempertureChange"
+            id="tempertureChange"
+            onchange="pickTemp(this)"
+          >
+            <option value="celsius">°C</option>
+            <option value="fahrenheit">°F</option>
+          </select>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="weatherContainer flex">
+        <div class="weekWeather flex" id="today">
+          <div class="weekDate">Today</div>
+          <img src="assets/some_rain.png" alt="rainny" />
+          <div class="weatherDescription">some rain</div>
+          <div class="tempertureContainer flex">
+            <span class="tempertureMax" id="todayMax">24°</span>
+            <span class="tempertureMin" id="todayMin">18°</span>
+          </div>
+        </div>
+
+        <div class="weekWeather flex" id="today">
+          <div class="weekDate">Tomorrow</div>
+          <img src="assets/some_sun.png" alt="sunny" />
+          <div class="weatherDescription">some sun</div>
+          <div class="tempertureContainer flex">
+            <span class="tempertureMax" id="tomorrowMax">27°</span>
+            <span class="tempertureMin" id="tomorrowMix">19°</span>
+          </div>
+        </div>
+
+        <div class="weekWeather flex" id="today">
+          <div class="weekDate">Friday</div>
+          <img src="assets/some_clouds.png" alt="cloudy" />
+          <div class="weatherDescription">some clouds</div>
+          <div class="tempertureContainer flex">
+            <span class="tempertureMax" id="fridayMax">21°</span>
+            <span class="tempertureMin" id="fridayMin">16°</span>
+          </div>
+        </div>
+
+        <div class="weekWeather flex" id="today">
+          <div class="weekDate">Saturday</div>
+          <img src="assets/some_sun.png" alt="sunny" />
+          <div class="weatherDescription">some sun</div>
+          <div class="tempertureContainer flex">
+            <span class="tempertureMax" id="saturdayMax">26°</span>
+            <span class="tempertureMin" id="saturdayMin">21°</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cookies flex">
+        <div id="warning">
+          <img src="assets/cookie.png" alt="cookie.png" id="warningPic" />
+        </div>
+        <div class="cookiesTextContainer">
+          <h2>Stop! Cookie time</h2>
+          <p>
+            We use cookies(sadly not the edible ones) to personalize content and
+            ads, to provide social media features and to analyse out traffic.
+            <span id="underLine">Read more...</span>
+          </p>
+        </div>
+        <div class="btnAccept">
+          <button id="accept" onclick="disappearCookie()">I Accept</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="DojoWeather.js"></script>
+  </body>
+</html>
